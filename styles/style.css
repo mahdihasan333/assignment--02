@@ -6,6 +6,7 @@
   padding: 0;
   font-family: "Inter", sans-serif;
   color: white;
+  background-color: rgb(18, 17, 19);
 }
 
 /* shared styles */
@@ -20,7 +21,7 @@
 
 .header-container {
   max-width: 1440px;
-  background-color: rgba(3, 3, 3, 0.89);
+  background-color: rgb(19, 17, 17);
 }
 
 .nav-section {
@@ -110,7 +111,7 @@
   margin-top: 10px;
   font-size: 1rem;
   font-weight: 600;
-  
+
 }
 
 .btn-primary {
@@ -192,7 +193,58 @@
 }
 
 
+/* habits section start */
 
+.habits-container {
+  height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: rgb(19, 17, 17);
+}
+
+.habit-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  padding-top: 70px;
+}
+
+.habit-description {
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+}
+
+.habit-img-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.habit-img img {
+  margin-left: 15px;
+  border-radius: 50%;
+}
+
+.habit-img h5 {
+  margin-top: 8px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.habit-img p {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+
+}
 
 
 /* mobile responsive */
@@ -204,6 +256,7 @@
   }
 
   .menu-icon {
+    color: white;
     display: block;
     font-size: 2rem;
     cursor: pointer;
@@ -214,39 +267,69 @@
     width: 90%;
     flex-direction: column;
   }
+
   .header-title {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     text-align: left;
   }
 
   .style {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
   }
 
   .header-description {
+    width: 150%;
     line-height: 1.8rem;
     letter-spacing: 0.6px;
   }
 
-  .btn-container {  
+  .btn-container {
     text-align: center;
-    width: 100%; 
+    width: 200%;
     display: flex;
-    justify-content: center;
   }
 
   .tutorials {
-    top: 550px;
+    top: 460px;
   }
 
   .video-tutorials {
-    top: 750px;
+    top: 720px;
   }
 
   .header-image-section img {
     margin-left: 60px;
     width: 150%;
   }
+
+  /* habit section responsive */
+
+  .habit-title {
+    margin-top: -55px;
+    font-size: 2rem;
+  }
+
+  .habit-description {
+    width: 80%;
+    text-align: center;
+  }
+
+
+  .habit-img-container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .habit-img-container {
+    text-align: center;
+  }
+
+  .habit-img-container p {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 60%;
+  }
+
 
 
 }
