@@ -37,37 +37,28 @@
   font-weight: 800;
 }
 
-.nav-item-container {
+.nav-item-list {
   display: flex;
-  gap: 5rem;
   align-items: center;
-  border: 1px solid rgb(7, 0, 0);
+  gap: 5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 39px;
-  padding-right: 0.7rem;
+  padding: 0.5rem;
 }
 
-.nav-item-container li {
+.nav-item-list li {
   list-style: none;
 }
 
-.nav-item-container li a {
+.nav-item-list a {
   text-decoration: none;
-  color: white;
-  font-size: 1rem;
 }
 
 .high-light {
+  border-radius: 46px;
   background: rgb(230, 83, 60);
-  padding: 0.7rem 1.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 3rem;
-  margin: 0.15rem;
+  padding: 8px 20px 8px 20px;
 }
-
-.menu-icon {
-  display: none;
-}
-
 
 /* hero section styles */
 
