@@ -6,7 +6,6 @@
   padding: 0;
   font-family: "Inter", sans-serif;
   color: white;
-  background-color: rgb(18, 17, 19);
 }
 
 /* shared styles */
@@ -16,6 +15,9 @@
   margin: 0 auto;
 }
 
+.bg-color {
+  background-color: rgb(18, 17, 19);
+}
 
 /* header section */
 
@@ -46,6 +48,8 @@
   padding: 0.5rem;
 }
 
+
+
 .nav-item-list li {
   list-style: none;
 }
@@ -58,6 +62,10 @@
   border-radius: 46px;
   background: rgb(230, 83, 60);
   padding: 8px 20px 8px 20px;
+}
+
+.menu-icon {
+  display: none;
 }
 
 /* hero section styles */
@@ -115,7 +123,7 @@
 }
 
 .btn-download {
-  padding: 16px 40px;
+  padding: 1rem 3.3rem;
   border-radius: 2.8rem;
   border: 1px solid rgb(255, 255, 255);
   background: transparent;
@@ -242,16 +250,17 @@
 @media screen and (max-width: 576px) {
 
   /* nav responsive */
-  .nav-item-container {
+  .nav-item-list {
     display: none;
   }
 
   .menu-icon {
     color: white;
     display: block;
-    font-size: 2rem;
+    font-size: 1.8rem;
     cursor: pointer;
   }
+
 
   /* hero section */
   .hero-section {
@@ -281,11 +290,13 @@
   }
 
   .tutorials {
-    top: 460px;
+    top: 515px;
+    right: 60px;
   }
 
   .video-tutorials {
-    top: 720px;
+    top: 750px;
+    right: 250px;
   }
 
   .header-image-section img {
