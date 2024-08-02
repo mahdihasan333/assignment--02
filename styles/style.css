@@ -295,6 +295,52 @@
 }
 
 
+/* trainings section styles */
+
+.training-section {
+  height: 100vh;
+  background-color: red;
+}
+
+.training-section h1 {
+  margin-top: 1rem;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.training-section p {
+  margin-top: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 24px;
+}
+
+
+/* calculator section styles */
+
+.calculator-content {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding-left: 400px;
+}
+
+.calculator-content h1 {
+  font-size: 3rem;
+  font-weight: 900;
+
+}
+
+.calculator-content p {
+  margin-top: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 24px;
+}
+
+
+
+
+
 
 /* mobile responsive */
 @media screen and (max-width: 576px) {
@@ -384,6 +430,11 @@
 
   /* run section style */
 
+
+  .run-section {
+    width: 90%;
+  }
+
   .run-container {
     margin-top: 61rem;
     flex-direction: column;
@@ -404,6 +455,21 @@
   .run-image img {
     width: 200%;
   }
+
+
+  /* calculatar section */
+
+  .calculator-content {
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 90%;
+    padding: 0px;
+  }
+
+  .calculator-content p {
+    margin-top: 5px;
+  }
+
 
 
 
