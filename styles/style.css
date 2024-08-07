@@ -298,8 +298,7 @@
 /* trainings section styles */
 
 .training-section {
-  height: 100vh;
-  background-color: red;
+  height: 90vh;
 }
 
 .training-section h1 {
@@ -312,34 +311,132 @@
   margin-top: 1rem;
   color: rgba(255, 255, 255, 0.5);
   line-height: 24px;
+  width: 60%;
+}
+
+.trainings {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+
+
+.lorem img {
+  width: 100%;
 }
 
 
 /* calculator section styles */
 
-.calculator-content {
-  margin-top: 1rem;
+.calculator-container {
+  width: 100%;
+  background: rgb(34, 34, 34);
   display: flex;
-  flex-direction: column;
-  justify-content: start;
-  padding-left: 400px;
+  gap: 4rem;
 }
 
 .calculator-content h1 {
+  margin-top: 3rem;
   font-size: 3rem;
   font-weight: 900;
-
+  margin-left: 400px;
 }
 
 .calculator-content p {
-  margin-top: 1rem;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 24px;
+  margin-left: 400px;
+  width: 50%;
+}
+
+.calculate-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  gap: 10rem;
+}
+
+.calculate-table {
+  margin-top: 3.6rem;
+  padding-left: 1rem;
+  margin-bottom: 3rem;
+}
+
+.calculate-table h2 {
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+
+
+.calculate-table table,
+th,
+td {
+  margin-top: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+  padding: 0.7rem 1.6rem;
+  text-align: left;
+}
+
+.calculate-table td {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+.calculate-content h2 {
+  margin-top: 3.6rem;
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+.calculate-content p {
+  margin-top: 14px;
   color: rgba(255, 255, 255, 0.5);
   line-height: 24px;
 }
 
 
 
+.calculator-form {
+  margin-top: 2rem;
+}
 
+form input, select, option {
+  padding: 12px 40px 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#submit-btn {
+  margin-top: 1.5rem;
+}
+
+
+/* team section styles start */
+
+.team-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-section h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.team-section p {
+  color: rgba(255, 255, 255, 0.5);
+  margin: auto;
+  line-height: 24px;
+  margin-top: 1rem;
+  text-align: center;
+  width: 85%;
+}
 
 
 /* mobile responsive */
@@ -386,13 +483,13 @@
   }
 
   .tutorials {
-    top: 515px;
-    right: 60px;
+    top: 600px;
+    right: 20px;
   }
 
   .video-tutorials {
-    top: 750px;
-    right: 250px;
+    top: 850px;
+    right: 200px;
   }
 
   .header-image-section img {
@@ -436,6 +533,7 @@
   }
 
   .run-container {
+    padding: 2rem;
     margin-top: 61rem;
     flex-direction: column;
   }
@@ -445,32 +543,42 @@
   }
 
   .run-content p {
-    width: 160%;
+    width: 220%;
   }
 
   .run-content button {
     width: 180%;
   }
 
+  .run-image {
+    margin-top: -2.5rem;
+  }
+
   .run-image img {
     width: 200%;
+  }
+
+  /* trainings section styles */
+
+  .training-section p {
+    width: 90%;
   }
 
 
   /* calculatar section */
 
-  .calculator-content {
-    margin: 0 auto;
-    margin-top: 1rem;
+
+
+
+  /* team section start */
+
+  .team-section h1 {
+    font-size: 2rem;
+  }
+
+  .team-section p {
+    margin-top: 0.6rem;
     width: 90%;
-    padding: 0px;
   }
-
-  .calculator-content p {
-    margin-top: 5px;
-  }
-
-
-
-
+  
 }
