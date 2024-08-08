@@ -403,7 +403,9 @@ td {
   margin-top: 2rem;
 }
 
-form input, select, option {
+form input,
+select,
+option {
   padding: 12px 40px 12px 20px;
   border: none;
   border-radius: 8px;
@@ -436,6 +438,58 @@ form input, select, option {
   margin-top: 1rem;
   text-align: center;
   width: 85%;
+}
+
+
+
+.team-img-container {
+  padding: 1.7rem;
+  margin-top: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.team-img {
+  width: 326.67px;
+  height: 272px;
+  border-radius: 1rem;
+}
+
+#first-img {
+  background: rgba(0, 0, 0, 0.2) url(../images/trainer1.png);
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+#second-img {
+  background: rgba(0, 0, 0, 0.2) url(../images/trainer2.png);
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+#third-img {
+  background: rgba(0, 0, 0, 0.2) url(../images/trainer3.png);
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+#fourth-img {
+  background: rgba(0, 0, 0, 0.2) url(../images/trainer4.png);
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+#fifth-img {
+  background: rgba(0, 0, 0, 0.2) url(../images/trainer5.png);
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+#sixth-img {
+  background: rgba(0, 0, 0, 0.2) url(../images/trainer6.png);
+  background-size: cover;
+  background-blend-mode: overlay;
 }
 
 
@@ -580,5 +634,5 @@ form input, select, option {
     margin-top: 0.6rem;
     width: 90%;
   }
-  
+
 }
