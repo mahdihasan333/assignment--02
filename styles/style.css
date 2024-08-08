@@ -438,16 +438,20 @@ option {
   margin-top: 1rem;
   text-align: center;
   width: 85%;
+  margin-bottom: 1rem;
 }
 
 
 
 .team-img-container {
-  padding: 1.7rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.4rem;
   margin-top: 0.5rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 1.2rem;
 }
 
 .team-img {
@@ -490,6 +494,17 @@ option {
   background: rgba(0, 0, 0, 0.2) url(../images/trainer6.png);
   background-size: cover;
   background-blend-mode: overlay;
+}
+
+.team-img h3 {
+  margin-top: 12rem;
+  padding-left: 1.5rem;
+}
+
+
+.team-img p {
+  margin-top: 0.3rem;
+  text-align: left;
 }
 
 
@@ -634,5 +649,21 @@ option {
     margin-top: 0.6rem;
     width: 90%;
   }
+
+
+  .team-img-container {
+    width: 90%;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+
+  .team-img h3 {
+    padding-left: 1.2rem;
+  }
+
+
+  
+
+
 
 }
