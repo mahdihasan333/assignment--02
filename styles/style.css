@@ -423,6 +423,7 @@ option {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 4rem;
 }
 
 .team-section h1 {
@@ -440,7 +441,6 @@ option {
   width: 85%;
   margin-bottom: 1rem;
 }
-
 
 
 .team-img-container {
@@ -505,6 +505,51 @@ option {
 .team-img p {
   margin-top: 0.3rem;
   text-align: left;
+}
+
+
+/* footer section style */
+
+.footer-section {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  
+}
+
+.footer-content {
+  display: flex;
+  gap: 4rem;
+}
+
+
+.first-col, .second-col, .third-col {
+  margin-top: 5rem;
+  width: 33%;
+}
+
+
+.first-col h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  color: rgb(230, 83, 60);
+}
+
+.first-col p {
+  margin-top: 0.6rem;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 24px;
+}
+
+.second-col h3, .third-col h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.second-col p, .third-col p {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 
@@ -662,7 +707,25 @@ option {
   }
 
 
-  
+
+
+  /* footer section  */
+
+  .footer-content {
+    flex-direction: column;
+  }
+
+
+  .first-col, .second-col, .third-col {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+
+  .second-col p, .third-col p {
+    width: 180%;
+  }
 
 
 
