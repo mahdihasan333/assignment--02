@@ -297,9 +297,6 @@
 
 /* trainings section styles */
 
-.training-section {
-  height: 90vh;
-}
 
 .training-section h1 {
   margin-top: 1rem;
@@ -314,15 +311,93 @@
   width: 60%;
 }
 
-.trainings {
+.exercises-img-container {
+  margin-top: 3rem;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
 }
 
+.first-exer {
+  height: 250px;
+  background: rgba(6, 255, 210, 0.5) url(../images/exercise1.jpg);;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+}
+
+.first-exer p {
+  margin-top: 12rem;
+  margin-left: 2.3rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: black;
+}
+
+.second-exer {
+  height: 250px;
+  background: rgba(255, 0, 0, 0.3) url(../images/exercise2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode:overlay;
+}
+
+.second-exer p {
+  margin-left: 2.3rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+}
+
+.third-exer {
+  height: 250px;
+  background: rgba(0, 0, 0, 0.5) url(../images/exercise3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+}
+
+.third-exer p {
+  margin-top: 12rem;
+  margin-left: 2.3rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+}
 
 
-.lorem img {
-  width: 100%;
+.second-exercises-img {
+  display: grid;
+  grid-template-columns: 1.7fr 1fr 1.3fr;
+}
+
+.first-exercise {
+  height: 250px;
+  background: rgba(0, 0, 0, 0.5) url(../images/exercise4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+}
+
+
+.first-exercise p {
+  
+}
+
+
+.second-exercise {
+  height: 250px;
+  background: rgba(66, 255, 0, 0.3) url(../images/exercise5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+}
+
+.third-exercise {
+  height: 250px;
+  background: rgba(0, 71, 255, 0.3) url(../images/exercise6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
 }
 
 
@@ -550,6 +625,20 @@ option {
   margin-bottom: 1rem;
   font-size: 1.5rem;
   color: rgba(255, 255, 255, 0.5);
+}
+
+hr {
+  width: 80%;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.1);
+  margin-top: 1rem;
+}
+
+.reserved-footer {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  padding: 1rem;
 }
 
 
