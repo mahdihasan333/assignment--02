@@ -380,7 +380,11 @@
 
 
 .first-exercise p {
-  
+  margin-top: 2rem;
+  margin-left: 18rem;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 
@@ -392,12 +396,28 @@
   background-blend-mode: overlay;
 }
 
+.second-exercise p {
+  margin-top: 12rem;
+  margin-left: 2.3rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+}
+
 .third-exercise {
   height: 250px;
   background: rgba(0, 71, 255, 0.3) url(../images/exercise6.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: overlay;
+}
+
+.third-exercise p {
+  margin-top: 12rem;
+  margin-left: 2.3rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
 }
 
 
@@ -495,6 +515,7 @@ option {
 /* team section styles start */
 
 .team-section {
+  margin-top: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -772,6 +793,34 @@ hr {
 
 
 
+  /* traning section style */
+
+  .training-section p {
+    margin-bottom: 2rem;
+  }
+
+  .exercises-img-container {
+    margin: 0 auto;
+    grid-template-columns: 2fr 1.8fr;
+  }
+
+  .third-exer {
+    display: none;
+  }
+
+  .second-exercises-img {
+    grid-template-columns: 1.8fr 2fr;
+  }
+
+  .first-exercise p {
+    margin-left: 2rem;
+  }
+
+  .third-exercise {
+    display: none;
+  }
+
+
 
   /* team section start */
 
@@ -794,6 +843,12 @@ hr {
   .team-img h3 {
     padding-left: 1.2rem;
   }
+
+  .team-img {
+    width: 404.67px;
+    height: 272px;
+    border-radius: 1rem;
+}
 
 
 
