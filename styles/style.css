@@ -112,7 +112,7 @@
 }
 
 .btn-container {
-  margin-top: 10px;
+  margin-top: 1.8rem;
   font-size: 1rem;
   font-weight: 600;
 
@@ -531,14 +531,14 @@ input[type="text"], input[type="number"] {
 select {
   color: rgba(255, 255, 255, 0.6);
   font-size: 1rem;
-  padding: 15px 100px;
+  padding: 15px 198px;
   border: none;
   border-radius: 0.8rem;
   background: rgba(255, 255, 255, 0.1);
 }
 
 .big {
-  padding: 15px 160px;
+  padding: 15px 155px;
 }
 
 
@@ -738,6 +738,7 @@ hr {
   }
 
   .btn-container {
+    margin-top: 1rem;
     text-align: center;
     width: 200%;
     display: flex;
@@ -749,8 +750,8 @@ hr {
   }
 
   .video-tutorials {
-    top: 850px;
-    right: 200px;
+    top: 800px;
+    right: 250px;
   }
 
   .header-image-section img {
