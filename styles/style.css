@@ -19,6 +19,11 @@
   background-color: rgb(18, 17, 19);
 }
 
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
 /* header section */
 
 .header-container {
@@ -423,10 +428,19 @@
 
 /* calculator section styles */
 
-.calculator-container {
-  width: 100%;
-  background: rgb(34, 34, 34);
+.calculate-container {
+  margin: 0 auto;
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  gap: 10rem;
+  background: rgb(34, 34, 34);
+}
+
+.calculator-container {
+  margin: 0 auto; 
+  display: flex;
+  justify-content: space-between;
   gap: 4rem;
 }
 
@@ -443,14 +457,10 @@
   line-height: 24px;
   margin-left: 400px;
   width: 50%;
+  margin-bottom: 3rem;
 }
 
-.calculate-container {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 2rem;
-  gap: 10rem;
-}
+
 
 .calculate-table {
   margin-top: 3.6rem;
@@ -480,6 +490,10 @@ td {
 }
 
 
+.calculate-content {
+  width: 50%;
+}
+
 .calculate-content h2 {
   margin-top: 3.6rem;
   font-size: 1.8rem;
@@ -487,6 +501,7 @@ td {
 }
 
 .calculate-content p {
+  width: 90%;
   margin-top: 14px;
   color: rgba(255, 255, 255, 0.5);
   line-height: 24px;
@@ -498,17 +513,39 @@ td {
   margin-top: 2rem;
 }
 
-form input,
-select,
-option {
-  padding: 12px 40px 12px 20px;
+input[type="text"], input[type="number"] {
+  padding: 15px 35px 15px 35px;
   border: none;
-  border-radius: 8px;
+  border-radius: 0.8rem;
   background: rgba(255, 255, 255, 0.1);
 }
 
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  text-align: left;
+  outline: none;
+}
+
+select {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  padding: 15px 100px;
+  border: none;
+  border-radius: 0.8rem;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.big {
+  padding: 15px 160px;
+}
+
+
+
 #submit-btn {
   margin-top: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 
@@ -792,6 +829,50 @@ hr {
   /* calculatar section */
 
 
+  .calculator-content h1 {
+    margin-left: 50px;
+  }
+
+  .calculator-content p {
+    margin-left: 50px;
+    width: 80%;
+  }
+
+  .calculator-container {
+    flex-direction: column;
+  }
+
+  .calculate-table {
+    margin-bottom: 0px;
+  }
+
+  .calculate-content h2 {
+    margin-top: 0px;
+    width: 150%;
+  }
+
+  .calculate-content p {
+    width: 150%;
+  }
+
+  input[type="text"], input[type="number"] {
+    padding: 15px 20px 15px 20px;
+    border: none;
+    border-radius: 0.8rem;
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  select {
+    padding: 15px 80px;
+  }
+
+  .big {
+    padding: 15px 120px;
+  }
+  
+
+  
+
 
   /* traning section style */
 
@@ -845,7 +926,7 @@ hr {
   }
 
   .team-img {
-    width: 404.67px;
+    width: 390px;
     height: 272px;
     border-radius: 1rem;
 }
