@@ -531,14 +531,14 @@ input[type="text"], input[type="number"] {
 select {
   color: rgba(255, 255, 255, 0.6);
   font-size: 1rem;
-  padding: 15px 198px;
+  padding: 15px 101px;
   border: none;
   border-radius: 0.8rem;
   background: rgba(255, 255, 255, 0.1);
 }
 
 .big {
-  padding: 15px 155px;
+  padding: 15px 159px;
 }
 
 
@@ -847,14 +847,15 @@ hr {
     margin-bottom: 0px;
   }
 
-  .calculate-content h2 {
-    margin-top: 0px;
-    width: 150%;
+  .calculator-content {
+    width: 80%;
   }
 
-  .calculate-content p {
-    width: 150%;
+  .calculate-content h2 {
+    margin-top: 0px;
   }
+
+  
 
   input[type="text"], input[type="number"] {
     padding: 15px 20px 15px 20px;
@@ -939,19 +940,18 @@ hr {
 
   .footer-content {
     flex-direction: column;
+    padding: 3rem;
+    gap: 0px;
   }
 
 
   .first-col, .second-col, .third-col {
-    width: 100%;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    width: 90%;
+    margin: o auto;
   }
 
 
-  .second-col p, .third-col p {
-    width: 180%;
-  }
+  
 
 
 
