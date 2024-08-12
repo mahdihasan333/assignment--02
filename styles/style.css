@@ -791,7 +791,7 @@ hr {
   .btn-container {
     margin-top: 1rem;
     text-align: center;
-    width: 200%;
+    width: 100%;
     display: flex;
   }
 
@@ -805,9 +805,13 @@ hr {
     right: 250px;
   }
 
+  .header-image-section {
+    width: 90%;
+  }
+
   .header-image-section img {
     margin-left: 60px;
-    width: 150%;
+    width: 100%;
   }
 
   /* habit section responsive */
@@ -863,11 +867,10 @@ hr {
 
   .run-image {
     margin-top: -2.5rem;
+    width: 100%;
   }
 
-  .run-image img {
-    width: 200%;
-  }
+  
 
   /* trainings section styles */
 
@@ -878,6 +881,9 @@ hr {
 
   /* calculatar section */
 
+  .calculate-content {
+    width: 100%;
+  }
 
   .calculator-content h1 {
     margin-left: 50px;
@@ -1022,10 +1028,6 @@ hr {
     width: 90%;
     margin: o auto;
   }
-
-
-  
-
 
 
 }
