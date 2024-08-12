@@ -342,6 +342,7 @@
 
 #extra-btn {
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* trainings section styles */
@@ -725,7 +726,7 @@ select {
 
 .second-col p, .third-col p {
   margin-bottom: 1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -737,10 +738,10 @@ hr {
 }
 
 .reserved-footer {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
-  padding: 1rem;
+  padding: 1rem;          
 }
 
 
@@ -766,17 +767,23 @@ hr {
     flex-direction: column;
   }
 
+  .header-content {
+    width: 100%;
+  }
+
   .header-title {
+    width: 70%;
     font-size: 2.7rem;
     text-align: left;
   }
+
 
   .style {
     font-size: 2.7rem;
   }
 
   .header-description {
-    width: 150%;
+    width: 90%;
     line-height: 1.8rem;
     letter-spacing: 0.6px;
   }
@@ -789,12 +796,12 @@ hr {
   }
 
   .tutorials {
-    top: 600px;
+    top: 530px;
     right: 20px;
   }
 
   .video-tutorials {
-    top: 800px;
+    top: 750px;
     right: 250px;
   }
 
@@ -844,16 +851,14 @@ hr {
     flex-direction: column;
   }
 
-  .run-content h1 {
-    width: 200%;
+  .run-content {
+    width: 100%;
   }
 
-  .run-content p {
-    width: 220%;
-  }
+ 
 
   .run-content button {
-    width: 180%;
+    width: 100%;
   }
 
   .run-image {
@@ -921,6 +926,7 @@ hr {
   
 
   .extra-content {
+    width: 90%;
     flex-direction: column;
     margin-bottom: 3rem;
   }
@@ -938,7 +944,7 @@ hr {
 
   #extra-btn {
     margin-bottom: 3rem;
-    padding: 16px 150px;
+    padding: 16px 160px;
   }
   
 
