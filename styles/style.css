@@ -300,6 +300,50 @@
 }
 
 
+/* extra section style */
+
+
+
+.extra-content {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(34, 34, 34);
+  border-radius: 18px;
+  gap: 3rem;
+}
+
+
+.extra-content img {
+  border-radius: 3rem;
+  padding: 2rem;
+}
+
+.extra-para h2 {
+  width: 90%;
+  margin-top: 5rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.extra-para h1 {
+  color: red;
+  margin-top: 1rem;
+  font-size: 6rem;
+  font-weight: 900;
+}
+
+.extra-para p {
+  width: 90%;
+  font-size: 1rem;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#extra-btn {
+  margin-top: 2rem;
+}
+
 /* trainings section styles */
 
 
@@ -871,8 +915,31 @@ hr {
   .big {
     padding: 15px 120px;
   }
+
+
+  /* extra section styls */
   
 
+  .extra-content {
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+
+  .extra-para {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -100px;
+  }
+
+  .extra-para h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  #extra-btn {
+    margin-bottom: 3rem;
+    padding: 16px 150px;
+  }
   
 
 
